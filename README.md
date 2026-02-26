@@ -5,6 +5,9 @@
 
 This project is an embedded optical communication system that transmits digital text messages across physical space using a laser beam. The system encodes standard ASCII characters into binary light pulses, transmits them via a laser diode, and decodes the incoming light fluctuations back into human-readable text on an I2C LCD screen.
 
+![Circuit Diagram](Circuit_Diagram.png)
+
+
 ### 🔬 Applications in Research & Signal Processing
 
 This project is a fundamental demonstration of **Physical Data Transmission**, **Signal Encoding**, and **Noise Mitigation**. Transmitting data via light requires strict timing tolerances and thresholding logic to differentiate the true signal from ambient light noise. These principles are directly applicable to:
